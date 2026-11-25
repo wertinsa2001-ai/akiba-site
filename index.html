@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkibaStore — Аутентичный аниме-мерч</title>
+    <meta name="description" content="Официальный мерч, фигурки и манга из Японии. Ограниченные тиражи. Прямые поставки. Клубная система с бонусами.">
+    <meta name="keywords" content="аниме магазин, фигурки, манга, аниме мерч, аниме атрибутика, купить фигурку">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="AkibaStore — Аутентичный аниме-мерч">
+    <meta property="og:description" content="Фигурки, манга и атрибутика из Японии. Ограниченные тиражи и бонусы для отаку.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1578632767115-351597cf2477?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Akiba<span>Store</span></span>
+                <span class="logo-tagline">Japan Quality</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#catalog" class="nav-link">Каталог</a></li>
+                    <li><a href="#features" class="nav-link">Почему мы</a></li>
+                    <li><a href="#club" class="nav-link">Клуб</a></li>
+                    <li><a href="#footer" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#catalog" class="btn btn-primary">За покупками</a>
+                <button class="burger" id="burger" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">Новая коллекция уже в наличии</div>
+                    <h1 class="hero-title">Твой мир аниме<br>в реальности</h1>
+                    <p class="hero-subtitle">Официальный мерч, лимитированные фигурки и оригинальная манга. Без посредников и подделок. Прямые поставки из Акихабары.</p>
+                    <div class="hero-actions">
+                        <a href="#catalog" class="btn btn-large btn-primary">Смотреть каталог</a>
+                        <a href="#features" class="btn btn-large btn-outline">О магазине</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num">5000+</span>
+                            <span class="stat-text">Довольных отаку</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-text">Оригинал</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">24/7</span>
+                            <span class="stat-text">Поддержка</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catalog Section -->
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Хиты продаж</h2>
+                    <p class="section-subtitle">Самые востребованные позиции этого месяца. Тиражи ограничены.</p>
+                </div>
+                
+                <div class="catalog-grid">
+                    <!-- Card 1 -->
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Фигурка Наруто">
+                            <span class="product-badge">Хит</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Фигурка Наруто Узумаки (1/7)</h3>
+                            <p class="product-desc">Высокодетализированная смола. Ограниченный тираж 500 шт.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">12 900 ₽</span>
+                                <button class="btn btn-icon" aria-label="В корзину">+</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1541562232579-512a21360020?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Манга Том 1">
+                            <span class="product-badge new">Новинка</span>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Манга «Клинок, рассекающий демонов» Том 1</h3>
+                            <p class="product-desc">Официальное издание на русском. Плотная бумага, суперобложка.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">890 ₽</span>
+                                <button class="btn btn-icon" aria-label="В корзину">+</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="product-card reveal">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1618331835717-801e976710b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Косплей аксессуар">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Катана Танджиро (реплика)</h3>
+                            <p class="product-desc">Сталь, дерево, тканевая обмотка. Идеально для косплея.</p>
+                            <div class="product-bottom">
+                                <span class="product-price">4 500 ₽</span>
+                                <button class="btn btn-icon" aria-label="В корзину">+</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-item reveal">
+                        <div class="feature-icon">🇯🇵</div>
+                        <h3 class="feature-title">Прямые поставки</h3>
+                        <p class="feature-text">Работаем с официальными дистрибьюторами в Японии. Никаких подделок и перекупов.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <div class="feature-icon">📦</div>
+                        <h3 class="feature-title">Бережная упаковка</h3>
+                        <p class="feature-text">Каждая фигурка едет в пузырчатой пленке и жесткой коробке. Доходит в идеале.</p>
+                    </div>
+                    <div class="feature-item reveal">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">Быстрая доставка</h3>
+                        <p class="feature-text">По Москве — курьер за 2 часа. По России — СДЭК или Почта за 3-5 дней.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Club Section -->
+        <section class="club" id="club">
+            <div class="container club-container reveal">
+                <div class="club-content">
+                    <h2 class="club-title">Вступай в клуб Akiba</h2>
+                    <p class="club-text">Копи бонусы с каждой покупки, получай ранний доступ к лимитированным тиражам и закрытые скидки на предзаказы.</p>
+                    <form class="club-form" id="clubForm">
+                        <input type="email" placeholder="Твой email" required class="club-input">
+                        <button type="submit" class="btn btn-primary">Стать отаку</button>
+                    </form>
+                    <p class="club-note">Никакого спама. Только анонсы дропов и промокоды.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Akiba<span>Store</span></span>
+                <p class="footer-desc">Твой проводник в мир аниме-культуры с 2018 года.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Магазин</h4>
+                <ul>
+                    <li><a href="#">Фигурки</a></li>
+                    <li><a href="#">Манга</a></li>
+                    <li><a href="#">Аксессуары</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Помощь</h4>
+                <ul>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="#">Гарантии</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4>Контакты</h4>
+                <p>Москва, ул. Анимешная, 1</p>
+                <p>+7 (999) 123-45-67</p>
+                <p>hello@akibastore.ru</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 AkibaStore. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
